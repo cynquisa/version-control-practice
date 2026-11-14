@@ -201,10 +201,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Crypt.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="VersionControlPractice.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Crypt.h" />
+    <ClInclude Include="Menu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
